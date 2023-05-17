@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class ImagePreviewViewController : UIViewController, UIScrollViewDelegate {
+class UIImagePreviewController : UIViewController, UIScrollViewDelegate {
 
     private var imageArray : [UIImage] = []
     private var currentPosition = 0

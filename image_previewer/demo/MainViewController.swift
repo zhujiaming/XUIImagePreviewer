@@ -67,9 +67,9 @@ extension MainViewController: PHPickerViewControllerDelegate {
                     }
                     count -= 1
                     if count == 0 {
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                             [weak self] in
-                            self?.navigationController?.pushViewController(ImagePreviewViewController(imageArray: targets, bgColor: .black), animated: true)
+                            self?.navigationController?.pushViewController(UIImagePreviewController(imageArray: targets, bgColor: .black), animated: true)
                         }
                     }
                 }
