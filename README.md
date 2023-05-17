@@ -1,4 +1,4 @@
-### UIImagePreviewer
+### XUIImagePreviewer
 
  使用swift实现的iOS端图片预览工具
 
